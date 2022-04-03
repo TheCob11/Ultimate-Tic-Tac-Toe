@@ -189,9 +189,6 @@ class BigBoard extends Tile{
 	}
 }
 var board = new BigBoard(document.getElementById("bigBoard"), document.getElementById("blurb"))
-function reset(){
-	
-}
 async function randomGame(time=100){
 	function randomTurn(){
 		var openBoards = board.tiles.filter(e=>e.allowed)
