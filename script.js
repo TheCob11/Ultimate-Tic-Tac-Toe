@@ -52,7 +52,7 @@ class Tile{
 		}
 		return Array.prototype.concat.apply([], this.value)
 	}
-	update(value=this.value){
+	update(value){
 		if(this.coords.length==4){
 			this.value = value
 			this.p = value
